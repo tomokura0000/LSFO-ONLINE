@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://cdn.discordapp.com/attachments/864847984621387787/866313055444140062/image1.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: serif;
+    color: #f0e68c;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: serif;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: rgb(0, 102, 255);
+  }
+  
+  
+  .btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(https://cdn.discordapp.com/attachments/861997970819645481/864115204491968542/unknown.png);
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+    background-image: url(https://cdn.discordapp.com/attachments/864847984621387787/866312954714652682/image0.png);
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: serif;
+    color: #ffffff;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-image: url(https://cdn.discordapp.com/attachments/864847984621387787/868779977859022848/image0.png);
+    background-size: cover;
+  }
+
+  .promotion_video{
+    background-image: url(https://cdn.discordapp.com/attachments/861997970819645481/864114986404806676/unknown.png);
+    text-align:center
+  }  
+
+  .promotion_videomozi{
+     width: 800px;
+     margin: 0px auto;
+     display: flex;
+     background-image: url(https://cdn.discordapp.com/attachments/861997970819645481/864114986404806676/unknown.png);
+  }
+  .item1{
+    width: 100%;
+    background-image: url(https://cdn.discordapp.com/attachments/861997970819645481/864115204491968542/unknown.png);
+    text-align: center;
+  }
+
+
+  .top-wrapperr{
+    background-image: url(https://cdn.discordapp.com/attachments/864847984621387787/866313055444140062/image1.png);
+  }
+
+  .containerr{
+    max-width: 22170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://cdn.discordapp.com/attachments/861997970819645481/864115204491968542/unknown.png);
+  }
